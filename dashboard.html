@@ -1,185 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>dashboard</title>
-  <link href="style.css" rel="stylesheet">
-  <body style="background-color: rgb(255, 255, 99);"></body>
-  <style>
-    table {
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>dashboard</title>
+    <link href="style.css" rel="stylesheet" />
+    <style>
+      .dashboard {
         border: 1px black solid;
         border-collapse: collapse;
-        position: absolute;
-        top: 20%;
-        margin-left: 30%;
         font-size: 15pt;
-        background-color: lightgreen;
-    }
+        background-color: rgb(146, 253, 251);
+        margin: 0 auto;
+        margin-top: 10%;
+        text-align: center;
+      }
 
-    td {
+      td {
         border: 1px black solid;
-    }
+      }
 
-    thead {
-        background-color: pink;
-    }
+      thead {
+        background-color: rgb(8, 108, 180);
+      }
 
-    .passed {
+      .passed {
         background-color: green;
-    }
+      }
 
-    .failed {
+      .failed {
         background-color: red;
-    }
-</style>
-</head>
+      }
+      footer {
+        position: relative;
+      }
+    </style>
+  </head>
 
-<body>
-  
+  <body id="dashboard">
     <header>
-        <div style="text-align: center"><img src="logo.png" width="200" height="75" ></div>
+      <div style="text-align: center">
+        <img src="logo.png" width="200" height="75" />
+      </div>
     </header>
 
-    <main class="profilemain1">
-            
-    </main>
-    <article class="kolor2">
-    </article>
-    <article class="kolor3">
-    </article>
-    <article class="kolor4">
-    </article>
+    <nav>
+      <button class="navbutton" type="button">
+        <a href="index.html" class="link">Home page </a>
+      </button>
+      <button class="active" type="button">
+        <a href="dashboard.html" class="link">Dashboard </a>
+      </button>
+      <button class="navbutton" type="button">
+        <a href="Profile.html" class="link">My Profile </a>
+      </button>
+      <button class="navbutton" type="button">
+        <a href="blog.html" class="link">Blog </a>
+      </button>
+      <button class="navbutton" type="button">
+        <a href="faq.html" class="link">FAQ </a>
+      </button>
+    </nav>
 
-  <article>
+    <table class="dashboard">
+      <thead>
+        <tr>
+          <th>Quarter</th>
+          <th>Course</th>
+          <th>Exam</th>
+          <th>Credits</th>
+          <th>Grade</th>
+          <th>Passed</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="5">1</td>
+          <td>Program- &amp; Career Orientation (PCO)</td>
+          <td>Assessment website (Individual process assessment)</td>
+          <td>2.5</td>
+          <td>-</td>
+          <td>...</td>
+        </tr>
+        <tr>
+          <td>Computer Science Basics (CSB)</td>
+          <td>Written knowledge test</td>
+          <td>5</td>
+          <td>-</td>
+          <td>...</td>
+        </tr>
+        <tr>
+          <td>Programming Basics (PBA)</td>
+          <td>Case study exam</td>
+          <td>5</td>
+          <td>-</td>
+          <td>...</td>
+        </tr>
+        <tr>
+          <td>IT Personality Project Week 1 (PPW1)</td>
+          <td rowspan="2">Portfolio</td>
+          <td rowspan="2">1.25</td>
+          <td>-</td>
+          <td>...</td>
+        </tr>
+        <tr>
+          <td>IT personality 1</td>
+          <td>-</td>
+          <td>...</td>
+        </tr>
+        <tr>
+          <td rowspan="2">2</td>
+          <td rowspan="2">Object-Oriented programming (OOP)</td>
+          <td>Presentation</td>
+          <td rowspan="2">5</td>
+          <td>-</td>
+          <td>...</td>
+        </tr>
+        <tr>
+          <td>Case study exam</td>
 
-      <h1> <a href="index.html" class="link">Home page </a> </h1>
-      <h1> <a href="dashboard.html" class="link">Dashboard </a> </h1>
-      <h1> <a href="Profile.html" class="link">My Profile </a> </h1>
-      <h1> <a href="blog.html" class="link">Blog </a> </h1>
-      <h1> <a href="faq.html" class="link">FAQ </a> </h1>
+          <td>-</td>
+          <td>...</td>
+        </tr>
+        <tr>
+          <td rowspan="5">3</td>
+          <td>Framework Development 1 (FDE1)</td>
+          <td>Case study exam</td>
+          <td>5</td>
+          <td>-</td>
+          <td>...</td>
+        </tr>
+        <tr>
+          <td rowspan="3">Framework Project 1 (FPR1)</td>
+          <td>Criterium based interview</td>
+          <td rowspan="3">2.5</td>
+          <td>-</td>
+          <td>...</td>
+        </tr>
+        <tr>
+          <td>Assignment</td>
 
+          <td>-</td>
+          <td>...</td>
+        </tr>
+        <tr>
+          <td>Case study exam</td>
 
-  </article>
-  
-  <table>
-  <thead>
-    <tr>
-        <th> Quarter</th>
-        <th> Course</th>
-        <th> Exam</th>
-        <th> Credits</th>
-        <th> Grade</th>
-        <th> Passed</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td rowspan="4"> 1</td>
-        <td> Program- &amp; Career Orientation (PCO)</td>
-        <td> Assessment website
-            (Individual process
-            assessment)
-        </td>
-        <td> 2.5</td>
-        <td> -</td>
-        <td> ...</td>
-    </tr>
-    <tr>
-        <td> Computer Science Basics (CSB)</td>
-        <td> Written knowledge test</td>
-        <td> 5</td>
-        <td> -</td>
-        <td> ...</td>
-    </tr>
-    <tr>
-        <td> Programming Basics (PBA)</td>
-        <td> Case study exam</td>
-        <td> 5</td>
-        <td> -</td>
-        <td> ...</td>
-    </tr>
-    <tr>
-        <td> IT Personality Project Week 1 (PPW1)</td>
-        <td> Portfolio</td>
-        <td> 1.25</td>
-        <td> -</td>
-        <td> ...</td>
-    </tr>
-    <tr>
-        <td rowspan="2"> 2</td>
-        <td rowspan="2"> Object-Oriented programming (OOP)</td>
-        <td> Presentation</td>
-        <td rowspan="2"> 5</td>
-        <td> -</td>
-        <td> ...</td>
-    </tr>
-    <tr>
-        <td> Case study exam</td>
-     
-        <td> -</td>
-        <td> ...</td>
-    </tr>
-    <tr>
-        <td rowspan="4"> 3</td>
-        <td> Framework Development 1 (FDE1)</td>
-        <td> Case study exam</td>
-        <td> 5</td>
-        <td> -</td>
-        <td> ...</td>
-    </tr>
-    <tr>
-        <td rowspan="3"> Framework Project 1 (FPR1)</td>
-        <td> Criterium based interview</td>
-        <td rowspan="3"> 2.5</td>
-        <td> -</td>
-        <td> ...</td>
-    </tr>
-    <tr>
-        
-        <td> Assignment</td>
-     
-        <td> -</td>
-        <td> ...</td>
-    </tr>
-    <tr>
-        
-        <td> Case study exam</td>
-   
-        <td> -</td>
-        <td> ...</td>
-    </tr>
-    <tr>
-        <td rowspan="3"> 4</td>
-        <td rowspan="3"> Framework Project 2 (FPR2)</td>
-        <td> Final delivery</td>
-        <td> 2.5</td>
-        <td> -</td>
-        <td> ...</td>
-    </tr>
-    <tr>
-        
-        <td> Report of acceptance tests
-            and optional assessments
-        </td>
-        <td> 2.5</td>
-        <td> -</td>
-        <td> ...</td>
-    </tr>
-    <tr>
-      
-        <td> IT Development Portfolio</td>
-        <td> 5</td>
-        <td> -</td>
-        <td> ...</td>
-    </tr>
-    
-    </tbody>
-  </table>
-
- 
-</body>
-
+          <td>-</td>
+          <td>...</td>
+        </tr>
+        <tr>
+          <td>IT personality 2</td>
+          <td>Portfolio</td>
+          <td>1.25</td>
+          <td>-</td>
+          <td>...</td>
+        </tr>
+        <tr>
+          <td rowspan="3">4</td>
+          <td rowspan="3">Framework Project 2 (FPR2)</td>
+          <td>Final delivery</td>
+          <td>2.5</td>
+          <td>-</td>
+          <td>...</td>
+        </tr>
+        <tr>
+          <td>Report of acceptance tests and optional assessments</td>
+          <td>2.5</td>
+          <td>-</td>
+          <td>...</td>
+        </tr>
+        <tr>
+          <td>IT Development Portfolio</td>
+          <td>5</td>
+          <td>-</td>
+          <td>...</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>IT personality interational week</td>
+          <td>Portfolio</td>
+          <td>1.25</td>
+          <td>-</td>
+          <td>...</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Personal Professional Development: Exploration</td>
+          <td>english test</td>
+          <td>0.5</td>
+          <td>-</td>
+          <td>...</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Personal Professional Development: Exploration</td>
+          <td>Criterium focused interview</td>
+          <td>12</td>
+          <td>-</td>
+          <td>...</td>
+        </tr>
+      </tbody>
+    </table>
+  </br>
+  </br> 
+    <div class="progress-bar" data-label="EC points"></div>
+  </br> </br> </br> </br> </br> </br> 
+    <footer>
+      <button class="footerlink" type="button">
+        <a
+          href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/EN/6.-Regulations-Study-Programmes/CER-HZ-Bachelor-full-time-2022-2023-DEF-June-13.pdf"
+          >CER
+        </a>
+      </button>
+      <button class="footerlink" type="button">
+        <a
+          href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/IR-CER-HZ-B-HBO-ICT-full-time-2022-2023-DEF.pdf"
+          class="link"
+          >IR
+        </a>
+      </button>
+      <button class="footerlink" type="button">
+        <a href="https://portal.hz.nl/en/" class="link">learn</a>
+      </button>
+      <button class="footerlink" type="button">
+        <a
+          href="https://teams.microsoft.com/_?culture=en-us&country=US&lm=deeplink&lmsrc=homePageWeb&cmpid=WebSignIn#/school/conversations/General?threadId=19:2e2afa0286b04932be16cb8ad2d9d2c0@thread.skype&ctx=channel"
+          class="link"
+          >teams
+        </a>
+      </button>
+      <button class="footerlink" type="button">
+        <a href="https://hz.osiris-student.nl/#code=46TgMm" class="link"
+          >My study progress
+        </a>
+      </button>
+      <button class="footerlink" type="button">
+        <a href="https://github.com/HZ-HBO-ICT" class="link"
+          >Study programme GitHub page
+        </a>
+      </button>
+    </footer>
+  </body>
 </html>

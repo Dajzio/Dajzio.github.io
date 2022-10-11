@@ -1,156 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My profile</title>
+    <link href="style.css" rel="stylesheet" />
+    <body style="background-color: rgb(255, 255, 99)"></body>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>My profile</title>
-  <link href="style.css" rel="stylesheet">
-  <body style="background-color: rgb(255, 255, 99);"></body>
-</head>
+  <body id="profile">
+    <header>
+      <div style="text-align: center">
+        <img src="logo.png" width="200" height="75" />
+      </div>
+    </header>
 
+    <nav>
+      <button class="navbutton" type="button">
+        <a href="index.html" class="link">Home page </a>
+      </button>
+      <button class="navbutton" type="button">
+        <a href="dashboard.html" class="link">Dashboard </a>
+      </button>
+      <button class="active" type="button">
+        <a href="Profile.html" class="link">My Profile </a>
+      </button>
+      <button class="navbutton" type="button">
+        <a href="blog.html" class="link">Blog </a>
+      </button>
+      <button class="navbutton" type="button">
+        <a href="faq.html" class="link">FAQ </a>
+      </button>
+    </nav>
 
-<body>
-  <header>
-    <div style="text-align: center"><img src="logo.png" width="200" height="75" ></div>
-</header>
-  
-  <main class="profilemain1">
-<!--
-    <h1>Personal Information</h1>
-    <p>Name Dawid Czuba</p>
-    <p class="first"> Age 18 year 2003 </p>
-    <h2> Pre-education </h2>
-    <p> 37 liceum ogolnokształcące im Jaroslawa Dabrowskiego w Warszawie </p>
-    <h2> subjects followed during previous education</h2>
-    <p> mathematics, physics, information technology</p>
-    <h2>Extra-curricular activities</h2>
-    <p>Probably none</p>
--->
-  </main>
-
-
-  <article class="kolor2">
-  </article>
-  <article class="kolor3">
-  </article>
-  <article class="kolor4">
-  </article>
-
-  <article>
-    <h1> <a href="index.html" class="link">Home page </a> </h1>
-    <h1> <a href="dashboard.html" class="link">Dashboard </a> </h1>
-    <h1> <a href="Profile.html" class="link">My Profile </a> </h1>
-    <h1> <a href="blog.html" class="link">Blog </a> </h1>
-    <h1> <a href="faq.html" class="link">FAQ </a> </h1>
-
-
-  </article>
-
-
-  <article class="hobbybox">
-
-    <table class="preschool">
-      <tr>
-        <td>
-          <h1>Personal Information</h1>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Name: Dawid Czuba</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p class="first"> Age 18 year 15-11-2003 </p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <h2> Pre-education </h2>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p> 37 liceum ogolnokształcące im Jaroslawa Dabrowskiego w Warszawie </p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <h2> subjects followed during previous education</h2>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p> mathematics, physics, information technology</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <h2>Extra-curricular activities</h2>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Sailing, Skiing</p>
-        </td>
-      </tr>
-    </table>
-
-    <aside class="from">
-      
-      <table class="hobby2">
+    <article class="personalInfo">
+      <table class="preschool">
         <tr>
           <td>
-            <img src="polska.png" width="300" height="300" style='float:right' ; />
+            <h1>Personal Information</h1>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>Name: Dawid Czuba</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p class="first">Age 18 year 15-11-2003</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h2>Pre-education</h2>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>
+              37 liceum ogolnokształcące im Jaroslawa Dabrowskiego w Warszawie
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h2>subjects followed during previous education</h2>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>mathematics, physics, information technology</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h2>Extra-curricular activities</h2>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>Sailing, Skiing</p>
+          </td>
+        </tr>
+      </table>
+
+      <aside>
+        <table>
+          <tr>
+            <td>
+              <img
+                src="polska.png"
+                width="300"
+                height="300"
+                style="float: right"
+                ;
+              />
+            </td>
+
+            <td>
+              <p>
+                My whole life I have been living in Warsaw, Poland. Warsaw is a
+                capital city of Poland placed in almost center of country. Many
+                of you probably know Poland because Robert Lewandowski, history
+                around world wars or one bad word. But Poland is far more
+                interesting. Our food like schabowy, pierogi or rosół tastes
+                delicious. Polish cuisine from the beggining attract people.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </aside>
+
+      <table>
+        <tr>
+          <td>
+            <img
+              src="skiiing.png"
+              width="300"
+              height="300"
+              style="float: left"
+              ;
+            />
           </td>
           <td>
-            <p>My whole life I have been living in Warsaw, Poland. Warsaw is a capital city of Poland placed in almost center of country. 
-              Many of you probably know Poland because Robert Lewandowski, history around world wars or one bad word. But Poland is far 
-              more interesting. Our food like schabowy, pierogi or rosół tastes delicious. Polish cuisine from the beggining attract people.
+            <p>
+              Skiing is my passion since I was 3 years old. Then for the first
+              time I tried this sport. From that moment every year I am going to
+              ski. The best thing you can find in this sport is speed and
+              freedom. Speed because then you can perceive you are really living
+              and thanks to enormous surrounding of mountains you can feel
+              freedom.
             </p>
           </td>
         </tr>
       </table>
 
-    </aside>
-
-    <table class="hobby1">
-      <tr>
-        <td>
-          <img src="skiiing.png" width="300" height="300" style='float:left' ; />
-        </td>
-        <td>
-          <p>Skiing is my passion since I was 3 years old. Then for the first time I tried this sport. From that moment
-            every year I am going to ski. The best thing you can find in this sport is speed
-            and freedom. Speed because then you can perceive you are really living and thanks to enormous surrounding of
-            mountains you can feel freedom.
-          </p>
-        </td>
-      </tr>
-    </table>
-
-
-
-    <table class="hobby2">
-      <tr>
-        <td> </td>
-        <td>
-          <img src="sailing.png" width="300" height="300" style='float:right' ; />
-          <br>
-          <p>Also sailing is my hobby. I have been sailing for almost 10 years now. I own sailing and motorboat license
-            which provide mi right to sail big boats. Usually I sail
-            on Mazury(It is like voivodeship in Poland) </p>
-
-        </td>
-      </tr>
-    </table>
-  </article>
-
-
-
-</body>
-
+      <table>
+        <tr>
+          <td></td>
+          <td>
+            <img
+              src="sailing.png"
+              width="300"
+              height="300"
+              style="float: right"
+              ;
+            />
+            <br />
+            <p>
+              Also sailing is my hobby. I have been sailing for almost 10 years
+              now. I own sailing and motorboat license which provide mi right to
+              sail big boats. Usually I sail on Mazury(It is like voivodeship in
+              Poland)
+            </p>
+          </td>
+        </tr>
+      </table>
+    </article>
+    <footer>
+      <button class="footerlink" type="button">
+        <a
+          href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/EN/6.-Regulations-Study-Programmes/CER-HZ-Bachelor-full-time-2022-2023-DEF-June-13.pdf"
+          >CER
+        </a>
+      </button>
+      <button class="footerlink" type="button">
+        <a
+          href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/IR-CER-HZ-B-HBO-ICT-full-time-2022-2023-DEF.pdf"
+          class="link"
+          >IR
+        </a>
+      </button>
+      <button class="footerlink" type="button">
+        <a href="https://portal.hz.nl/en/" class="link">learn</a>
+      </button>
+      <button class="footerlink" type="button">
+        <a
+          href="https://teams.microsoft.com/_?culture=en-us&country=US&lm=deeplink&lmsrc=homePageWeb&cmpid=WebSignIn#/school/conversations/General?threadId=19:2e2afa0286b04932be16cb8ad2d9d2c0@thread.skype&ctx=channel"
+          class="link"
+          >teams
+        </a>
+      </button>
+      <button class="footerlink" type="button">
+        <a href="https://hz.osiris-student.nl/#code=46TgMm" class="link"
+          >My study progress
+        </a>
+      </button>
+      <button class="footerlink" type="button">
+        <a href="https://github.com/HZ-HBO-ICT" class="link"
+          >Study programme GitHub page
+        </a>
+      </button>
+    </footer>
+  </body>
 </html>

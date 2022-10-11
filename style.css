@@ -1,114 +1,166 @@
- article {
-   background-color: rgb(214, 153, 128);
-   width: 300px;
-   height: 290px;
-   text-align: center;
-   position: fixed;
+nav {
+  text-align: center;
+  position: center;
+}
 
- }
+.personalInfo {
+  background-image: url(main.png);
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 2em;
+}
 
- .hobbybox {
-   background-color: rgb(210, 227, 82);
-   height: max-content;
-   width: 60%;
-   margin-left: 20%;
-   position: absolute;
-   
- }
-
- p {
-   font-size: 20px;
-   font-style: inherit;
-   color: blue;
- }
-
-
- .profilemain1 {
-   text-align: center;
-   background-color: rgb(163, 149, 242);
-   position: fixed;
-   width: 100%;
-   height: 25%;
-
- }
-
- .kolor2 {
-   text-align: center;
-   background-color: rgb(95, 200, 238);
-   position: fixed;
-   margin-top: 15%;
-   width: 100%;
-   height: 25%;
- }
-
- .kolor3 {
-   text-align: center;
-   background-color: rgb(74, 239, 168);
-   position: fixed;
-   margin-top: 30%;
-   width: 100%;
-   height: 25%;
- }
-
- .kolor4 {
-   text-align: center;
-   background-color: rgb(205, 238, 95);
-   position: fixed;
-   margin-top: 45%;
-   width: 100%;
-   height: 25%;
- }
-
- .preschool {
-   text-align: center;
-   margin-left: 25%;
- }
- .logo {
-  position: absolute;
-  margin-left: 40%;
- }
-
-.index1 {
-  background-color: rgb(210, 227, 82);
-  position: absolute;
-  margin-left: 17.5%;
+.preschool {
+  margin: 0 auto;
+}
+p {
+  font-size: 20px;
+  font-style: inherit;
+  color: blue;
+  text-align: center;
+}
+.indexMain {
+  background-image: url(main.png);
+  margin: 0 auto;
   width: 800px;
+  border-radius: 2em;
 }
 p2 {
-font-size: 20px;
-text-align: left;
+  font-size: 20px;
+  text-align: left;
 }
 h3 {
   font-size: 35px;
   text-align: center;
 }
 
-
-body {
-  height: 100%;
+h5 {
+  font-size: 15px;
+  text-align: center;
 }
 
-h5 {
+.blogMainPage {
+  background-image: url(main.png);
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 2em;
+}
+
+.post {
+  background-color: rgb(86, 245, 181);
+  height: auto;
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 2em;
+  font-size: 25px;
+  text-align: center;
+}
+
+.faq {
+  background-image: url(main.png);
+  margin: 0 auto;
+  width: 800px;
+  border-radius: 2em;
+}
+
+.navbutton {
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: wavy;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  transition-duration: 0.3s;
+}
+button:hover {
+  background-color: rgb(89, 249, 249);
+  color: white;
+  box-shadow: inset;
+}
+h4 {
+  text-align: center;
+  font-size: 20pt;
+}
+body {
+  background-image: url(tlo.png);
+  padding: 0;
+  margin: 0;
+}
+.active {
+  background-color: rgb(89, 249, 249);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: wavy;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  transition-duration: 0.3s;
+}
+footer {
+  background-image: url(footer.png);
+  text-align: center;
+}
+.footerlink {
+  text-align: center;
+  text-decoration: wavy;
+  font-size: 15pt;
+  border-radius: 12px;
+  border: none;
+  transition-duration: 0.3s;
+  background-color: rgb(69, 255, 199);
+  width: 15%;
+}
+*,
+*::before,
+::after {
+  box-sizing: border-box;
+}
+.progress-bar {
+  position: relative;
+  width: 500px;
+  height: 3em;
+  background-color: rgb(0, 187, 255);
+  margin: 0 auto;
+  border-radius: 1.5em;
+  color: black;
+}
+.progress-bar::before {
+  content: attr(data-label);
+  display: flex;
+  position: absolute;
+  align-items: center;
+  left: 0.5em;
+  top: 0.5em;
+  bottom: 0.5em;
+  width: 35%;
+  min-width: 2rem;
+  max-width: calc(100% - 1em);
+  background-color: aquamarine;
+  border-radius: 1em;
+  padding: 1em;
+}
+.blog {
+  background-color: rgb(168, 248, 232);
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  border-radius: 2em;
+}
+.blank1 {
+  height: 475px;
+}
+h2 {
   font-size: 25px;
 }
-.box {
-  width: 1000px;
-  height: 500px;
-  position: absolute;
-  margin-left: 7.5%;
-  margin-top: 5%;
+.blank2 {
+  height: 565px;
 }
-.hobbybox1 {
-  background-color: rgb(210, 227, 82);
-  height: 100%;
-  width: 60%;
-  margin-left: 20%;
-  position: absolute;
-}
-.hobbybox2 {
-  background-color: rgb(83, 83, 246);
-  height: 100%;
-  width: 60%;
-  margin-left: 20%;
-  position: absolute;
+.blank3 {
+  height: 700px;
 }
